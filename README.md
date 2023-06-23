@@ -1,5 +1,3 @@
-> New to [last.fm](#)? I go over their service, and ways to integrate this project into your website, [on my blog](#) :)
-
 # current-song-worker
 
 A [CloudFlare worker](#) that reads a user's latest scrobble from [last.fm](#), and exposes it as a JSON endpoint.

@@ -1,6 +1,6 @@
 # current-song-worker
 
-A [CloudFlare worker](#) that reads a user's latest scrobble from [last.fm](#), and exposes it as a JSON endpoint.
+A [CloudFlare worker](https://workers.cloudflare.com/) that reads a user's latest scrobble from [last.fm](#), and exposes it as a JSON endpoint.
 Perfect for use as a "listening to" widget on your website, as seen [here](https://webcrawls.neocities.org).
 
 This repository contains the worker source code, and an HTML/JS snippet to implement this on your website

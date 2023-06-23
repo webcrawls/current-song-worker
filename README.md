@@ -4,8 +4,10 @@ A [CloudFlare worker](https://workers.cloudflare.com/) that reads a user's lates
 exposes it as a JSON endpoint.
 Perfect for use as a "listening to" widget on your website, as seen [here](https://webcrawls.neocities.org).
 
-> ![demonstration image](/docs/demo.png)
-> *an example, from my webpage*
+<figure>
+  <img src="docs/demo.png">
+  <figcaption>an example screenshot, taken from my webpage</figcaption>
+</figure>
 
 This repository contains the worker source code, and an HTML/JS snippet to implement this on your website
 

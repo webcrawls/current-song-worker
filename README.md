@@ -5,7 +5,7 @@ Perfect for use as a "listening to" widget on your website, as seen [here](https
 
 This repository contains the worker source code, and an HTML/JS snippet to implement this on your website
 
-> Why use a worker? CloudFlare offers free access for up to 100k req/day, which is plenty for smaller websites like
+> Why use a worker? With them, we can side-step the need to provide our last.fm API key to all users visiting a page. Plus, CloudFlare offers free access for up to 100k req/day, which is plenty for smaller websites like
 > mine :)
 
 **Table of Contents**

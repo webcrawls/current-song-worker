@@ -18,11 +18,8 @@ export default {
         const user = await getUserInfo(env.LASTFM.USER, env.LASTFM.KEY)
         const track = await getCurrentTrack(env.LASTFM.USER, env.LASTFM.KEY)
 
-        // construct our headers ("...origin: *" allows this resource to be accessed anywhere, i.e. our website.
-        const headers = new Headers({"Access-Control-Allow-Origin": "*"});
-
         // return the response in the form of a JSON object. cloudflare will make this available on the URL they give us.
-        return Response.json({user, track}, {headers})
+        return Response.json({user, track}, {headers: new Headers({"Access-Control-Allow-Origin": "*"})})
     },
 };
 
